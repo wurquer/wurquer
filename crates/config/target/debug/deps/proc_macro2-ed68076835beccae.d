@@ -1,0 +1,11 @@
+C:\Users\phili\Projects\wurquer\crates\config\target\debug\deps\proc_macro2-ed68076835beccae.rmeta: C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\lib.rs C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\parse.rs C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\detection.rs C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\fallback.rs C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\wrapper.rs
+
+C:\Users\phili\Projects\wurquer\crates\config\target\debug\deps\libproc_macro2-ed68076835beccae.rlib: C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\lib.rs C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\parse.rs C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\detection.rs C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\fallback.rs C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\wrapper.rs
+
+C:\Users\phili\Projects\wurquer\crates\config\target\debug\deps\proc_macro2-ed68076835beccae.d: C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\lib.rs C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\parse.rs C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\detection.rs C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\fallback.rs C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\wrapper.rs
+
+C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\lib.rs:
+C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\parse.rs:
+C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\detection.rs:
+C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\fallback.rs:
+C:\Users\phili\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.19\src\wrapper.rs:

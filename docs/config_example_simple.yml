@@ -1,0 +1,17 @@
+input:
+  type: http
+  params:
+    method: 'POST'
+    path: '/send'
+  map:
+    request:
+      payload: {{serviceConfig getOfferKey $response.path.pathname}}
+output:
+  type: http
+  map:
+    response:
+      createdAt: {{date_now "iso"}}
+  handler:
+    request: saveData
+  - type: mock
+    name: mock

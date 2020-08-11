@@ -1,0 +1,34 @@
+modules:
+  - name: serviceConfig
+    port: 8865
+    type: grpc
+  - name: saveData
+    git: git@bitbucket.org:bemobidev/service-config.git
+  - name: rbmq
+    module: git@bitbucket.org:bemobidev/rbmq.git
+  - name: mock
+    module: git@bitbucket.org:bemobidev/rbmq.git
+inputs:
+  - type: http
+    params:
+      method: 'POST'
+      path: '/send'
+    map:
+      request:
+        payload: {{serviceConfig getOfferKey $response.path.pathname}}
+    output: rabbit
+  - use: http
+    params:
+      method: 'GET'
+      path: '/health'
+    output: mock
+outputs:
+  - use: rbmq
+    name: rabbit
+    map:
+      response:
+        createdAt: {{date_now "iso"}}
+    handler:
+      request: saveData
+  - use: mock
+    name: mock
